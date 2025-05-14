@@ -21,3 +21,9 @@ nav ul .li {
 
     cursor: pointer;
 }
+
+
+nav ul a.active {
+    padding: 10px 15px;  
+    border-bottom: 3px solid #01AEE7; 
+  }

@@ -1,40 +1,36 @@
-import {Outlet, Link} from "react-router-dom"
+import {Outlet, NavLink} from "react-router-dom"
 import './App.css'
 
 function Nav() {
     return(
         <>
        <div className="container">
-       {/* <div className="logo">
-        <img src="./logo.png" alt="" />
-        <hr color="black"/>
-       </div> */}
         <nav className="container">
             <div className="container">
                 <ul className="flex">
                     <li>
-                    <Link className="li" to="/">Home</Link>            
+                        <NavLink className="li" to="/">главная</NavLink>            
                     </li>
 
 
                     <li>
-                     <Link className="li" to="/about">About</Link>
+                        <NavLink className="li" to="/about">О Бренде</NavLink>
                     </li>
                     <li>
-                     <Link className="li" to="/adventages">Advantages</Link>
+                        <NavLink className="li" to="/adventages">Преимущества</NavLink>
                     </li>
                     <li>
-                     <Link className="li" to="/freeclub">freeclub</Link>
+                        <NavLink className="li" to="/freeclub">открыть клуб</NavLink>
                     </li>
                      <li>
-                    <Link className="li" to="/contact">Contact</Link>            
+                        <NavLink className="li" to="/contact">контакты</NavLink>            
                     </li>
                 </ul>
             </div>
         </nav>
         </div>
         <hr />
-        <Outlet/>
+        {/* <Outlet/> */}
         
         </>
     )

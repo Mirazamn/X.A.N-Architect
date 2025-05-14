@@ -24,7 +24,7 @@ footer ul {
 }
 
 
-footer ul li {
+footer ul li, footer .li {
     font-size: 15px;
     font-weight: 400;
     color: #FFFFFF;
@@ -39,6 +39,17 @@ footer ul h4 {
 }
 
 
-footer ul li:hover {
+footer ul li:hover, footer .li:hover {
     text-decoration: underline;
+}
+
+
+footer ul a.active {
+    padding: 2px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+footer ul a.active:hover {
+    text-decoration: none;
 }

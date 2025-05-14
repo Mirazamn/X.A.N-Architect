@@ -15,7 +15,7 @@ function Home() {
             <Characteristics />
             <Services />
             <Contacts />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
