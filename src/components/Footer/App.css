@@ -11,9 +11,10 @@ footer .flex {
 
 footer ul h6, footer h5 {
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     color: #FFFFFF;
     padding: 0 0 14px 0;
+    background: #FFFFFF;
 }
 
 
