@@ -4,11 +4,11 @@ import './App.css'
 function Footer() {
     return (
         <>
+            <h1>Footer</h1>
             <footer>
                 <div className="container flex">
                     <ul>
                         <h6>КАТАЛОГ ТОВАРОВ</h6>
-
                         <li>Кардио тренажеры</li>
                         <li>Composite Strength</li>
                         <li>True Stretch</li>
