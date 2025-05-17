@@ -12,7 +12,7 @@
 .services h1 {
     font-size: 30px;
     font-weight: 700;
-    color: #01AEE7;
+    color: #B8A38F;
 
     padding: 100px;
 }
@@ -28,13 +28,14 @@
 
 .services .cards .card .icon {
     font-size: 55px;
-    color: #01AEE7;
+    color: #B8A38F;
 }
 
 
 .services .cards .card h5 {
     font-size: 18px;
     font-weight: 700;
+    text-transform: uppercase;
     color: #000;
 }
 
@@ -52,4 +53,46 @@
 
     width: 692px;
     margin: 0 100px;
+}
+
+
+.services img {
+    opacity: 0;
+}
+
+
+.services aside {
+    background: url(../../assets/product.svg);
+    background-position: center;
+    background-clip: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+    .services h1 {
+        padding: 50px;
+    }
+
+
+    .services .cards {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 350px;
+        gap: 30px;
+        margin: 0 auto;
+        padding: 0 0 50px 0;
+    }
+
+
+    .services > .flex {
+        flex-direction: column-reverse;
+    }
+
+
+    .services aside {
+        background: url(../../assets/interior-1.jpg);
+        background-size: cover;
+        height: 500px;
+    }
 }

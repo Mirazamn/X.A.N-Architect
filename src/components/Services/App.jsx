@@ -1,64 +1,64 @@
 import './App.css'
 
-import { FaHeadphonesSimple } from "react-icons/fa6";
-import { MdSmartDisplay } from "react-icons/md";
-import { SiNintendogamecube } from "react-icons/si";
-import { ImHome } from "react-icons/im";
-import { IoMdSettings } from "react-icons/io";
-import { FaShippingFast } from "react-icons/fa";
+import { TfiRulerAlt2 } from "react-icons/tfi";
+import { MdEditDocument } from "react-icons/md";
+import { FaHome } from "react-icons/fa";
+import { GiBrickWall } from "react-icons/gi";
+import { GrDocumentWord } from "react-icons/gr";
+import { PiCraneTowerBold } from "react-icons/pi";
 
-import Run from '../../assets/run.svg'
+import Home3 from '../../assets/home-3.jpg'
 
 function Services() {
     return (
-        <section className="services">
+        <section className="services" id='services'>
             <div className="flex">
                 <div className="services-txt">
-                    <h1>Мы предлагаем <br /> полный комплекс услуг</h1>
+                    <h1>Xizmatlarimiz</h1>
 
                     <div className="cards flex">
 
                         <div className="card">
-                            <FaHeadphonesSimple className='icon'/>
-                            <h5>КОНСАЛТИНГ</h5>
-                            <p>Помогаем в разработке концепции клуба, зонировании, оснащении и расчете финансовых показателей.</p>
+                            <TfiRulerAlt2 className='icon'/>
+                            <h5>Arxitektura Loyihalash</h5>
+                            <p>Yangi binolar uchun to‘liq arxitektura chizmalari va 3D dizaynlar tayyorlash. </p>
                         </div>
 
                         <div className="card">
-                            <MdSmartDisplay className='icon'/>
-                            <h5>МОНТАЖ И СЕРВИСНОЕ <br /> ОБСЛУЖИВАНИЕ</h5>
-                            <p>Полный цикл пуско-наладочных работ, а также сервисного обслуживания тренажеров.</p>
+                            <MdEditDocument className='icon'/>
+                            <h5>Kadastrga Kiritish <br /> Xizmati</h5>
+                            <p>Qurilgan yoki mavjud binoni <br /> rasmiy ravishda kadastr <br /> hujjatlariga kiritish.</p>
                         </div>
 
                         <div className="card">
-                            <SiNintendogamecube className='icon'/>
-                            <h5>ПОДБОР ОБОРУДОВАНИЯ <br /> И 3D ПРОЕКТ</h5>
-                            <p>Помогаем подобрать оборудование, сделать расстановку на плане и показать 3D визуализацию вашего будущего проекта.</p>
+                            <FaHome className='icon'/>
+                            <h5>Fasad Dizayni</h5>
+                            <p>Bino tashqi ko‘rinishini zamonaviy va jozibali qilish uchun individual fasad loyihalari.</p>
                         </div>
 
                         <div className="card">
-                            <ImHome className='icon'/>
-                            <h5>ФИРМЕННЫЙ SHOW-ROOM</h5>
-                            <p>Пройдите тест-драйв оборудования перед приобретением.</p>
+                            <GiBrickWall className='icon'/>
+                            <h5>Rekonstruksiya Loyihalari</h5>
+                            <p>Eski binolarni yangilash, qayta qurish yoki zamonaviy ko‘rinishga olib kelish.</p>
                         </div>
 
                         <div className="card">
-                            <IoMdSettings className='icon'/>
-                            <h5>ПОСТАВКА ЗАПЧАСТЕЙ</h5>
-                            <p>Поставка как гарантийных, так и постгарантийных запчастей.</p>
+                            <GrDocumentWord className='icon'/>
+                            <h5>Hujjat Tayyorlash <br /> va Ruxsatnomalar</h5>
+                            <p>Qurilish boshlashdan oldingi barcha zaruriy ruxsatnomalar va arxiv hujjatlarini rasmiylashtirish.</p>
                         </div>
 
                         <div className="card">
-                            <FaShippingFast className='icon'/>
-                            <h5>Доставка по всему <br /> Узбекистану</h5>
-                            <p>Мы доставляем оборудование по всему Узбекистану.</p>
+                            <PiCraneTowerBold className='icon'/>
+                            <h5>Muvofiqlik Ekspertizasi</h5>
+                            <p>Loyihalarning davlat standartlari va texnik me’yorlarga mosligini aniqlash.</p>
                         </div>
 
                     </div>
                 </div>
 
                 <aside>
-                    <img src={Run} alt="" />
+                    <img src={Home3} alt="" />
                 </aside>
             </div>
         </section>

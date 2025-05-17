@@ -8,6 +8,13 @@
 }
 
 
+.features .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+
 .features .features-txt {
     display: flex;
     flex-direction: column;
@@ -23,7 +30,7 @@
 
 
 .features .features-txt h1 span {
-    color: #01AEE7;
+    color: #B8A38F;
 }
 
 
@@ -36,7 +43,7 @@
 
 
 .features .features-txt hr {
-    background-color: #FFF500;
+    background-color: #FCDC00;
     height: 5px;
     border: none;
 }
@@ -48,12 +55,43 @@
     
     font-size: 30px;
     font-weight: 700;
-    color: #01AEE7;
+    color: #B19A87;
 
     text-transform: uppercase;
 }
 
 
 .product {
-    background: url(../../assets/product-bg.svg);
+    width: 400px;
+}
+
+
+@media (max-width: 500px) {
+    .features .flex {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    
+    .features .features-txt h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .features .features-txt hr {
+        display: none;
+    }
+
+    .features .features-txt p {
+        text-align: center;
+        font-size: 25px;
+        width: 400px;
+    }
+
+
+    .features .features-txt > span {
+        text-align: center;
+        font-size: 25px;
+    }
 }

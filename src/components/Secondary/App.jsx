@@ -4,7 +4,7 @@ function Secondary() {
     return (
         <section className="secondary">
             <h1>
-                TRUE - ведущий мировой <br /> производитель премиального фитнес <br /> оборудования
+                X.A.N Architect - Arxitektura <br />sohasida 8 yillik tajriba
             </h1>
         </section>
     )

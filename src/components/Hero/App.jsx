@@ -2,9 +2,9 @@ import './App.css'
 
 function Hero() {
     return (
-        <section className='hero'>
+        <section className='hero' id='hero'>
             <h1>
-                TRUE FITNESS - ПРЕМИУМ <br /> ТРЕНАЖЕРЫ ИЗ США
+                <span>X.A.N Architect</span> <br /> arxitektura va Dizayn
             </h1>
         </section>
     )

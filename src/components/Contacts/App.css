@@ -1,12 +1,14 @@
 .contacts {
-    background: url(../../assets/contacts.svg);
+    background: url(../../assets/home-4.jpg);
+    background-size: cover;
     padding: 127px 0 126px;
     background-size: cover;
 }
 
 
 .contacts .container {
-    width: 510px;
+    width: 410px;
+    height: 400px;
     background: #fff;
 
     padding: 53px 27px 25px 28px;
@@ -23,12 +25,12 @@
     padding: 10px 20px;
     background: #F0F0F0;
     border: none;
-    width: 450px;
+    width: 350px;
 }
 
 
 .contacts form button {
-    padding: 12px 150px;
+    padding: 12px 50px;
     background: #01AEE7;
     border: none;
 
@@ -36,12 +38,13 @@
     font-weight: 700;
     color: #FFFFFF;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 
 .contacts > .flex {
     flex-direction: column;
-    gap: 25px;
+    gap: 30px;
 }
 
 
@@ -49,6 +52,7 @@
     font-size: 20px;
     font-weight: 700;
     color: #000000;
+    text-transform: uppercase;
 }
 
 

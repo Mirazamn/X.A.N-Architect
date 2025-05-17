@@ -9,27 +9,26 @@ function Nav() {
             <div className="container">
                 <ul className="flex">
                     <li>
-                        <NavLink className="li" to="/">главная</NavLink>            
+                            <a href="#hero">Asosoiy </a>
                     </li>
 
 
                     <li>
-                        <NavLink className="li" to="/about">О Бренде</NavLink>
+                        <a href="#features">Biz haqimizda</a>
                     </li>
                     <li>
-                        <NavLink className="li" to="/adventages">Преимущества</NavLink>
+                       <a href="#characteristics"> Xizmatlar</a>
                     </li>
                     <li>
-                        <NavLink className="li" to="/freeclub">открыть клуб</NavLink>
+                        <a href="#services">Ustunliklar</a>
                     </li>
                      <li>
-                        <NavLink className="li" to="/contact">контакты</NavLink>            
+                        <a href="#contacts">Bog'lanish</a>
                     </li>
                 </ul>
             </div>
         </nav>
         </div>
-        <hr />
         {/* <Outlet/> */}
         
         </>

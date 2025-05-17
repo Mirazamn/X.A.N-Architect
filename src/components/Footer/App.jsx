@@ -1,42 +1,43 @@
-import {NavLink} from "react-router-dom"
+import { Link } from 'react-router-dom';
+
 import './App.css'
+import { IoCall } from "react-icons/io5";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { IoLogoFacebook } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
+
 
 function Footer() {
     return (
         <>
-            <h1>Footer</h1>
             <footer>
                 <div className="container flex">
-                    <ul>
-                        <h6>КАТАЛОГ ТОВАРОВ</h6>
-                        <li>Кардио тренажеры</li>
-                        <li>Composite Strength</li>
-                        <li>True Stretch</li>
-                        <li>Сайклинг</li>
-                        <li>Групповые тренировки</li>
-                        <li>Силовые тренажеры</li>
-                        <li>Консоли</li>
-                        <h4>© TRUE FITNESS</h4>
+                    <div className="social flex">
+                        <a href='#'><IoCall className='icon' /></a>
+                        <a href='#'><FaMapMarkerAlt className='icon' /></a>
+                        <a href='#'><FaTelegramPlane className='icon' /></a>
+                        <a href='#'><IoLogoFacebook className='icon' /></a>
+                        <a href='#'><FaInstagram className='icon' /></a>
+                    </div>
+
+                    <ul className='flex'>
+                        <li>
+                            <a href="#hero">Asosoiy</a>
+                        </li>
+                        <li>
+                            <a href="#features">Biz haqimizda</a>
+                        </li>
+                        <li>
+                            <a href="#characteristics">Xizmatlar</a>
+                        </li>
+                        <li>
+                            <a href="#services">Ustunliklar</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Bog'lanish</a>
+                        </li>
                     </ul>
-
-                    <ul>
-                        <h6>ИНФОРМАЦИЯ</h6>
-
-                        <NavLink className="li" to="/about">О Бренде</NavLink>
-                        <NavLink className="li" to="/adventages">Преимущества</NavLink>
-                        <NavLink className="li" to="/freeclub">открыть клуб</NavLink>
-                        <NavLink className="li" to="/">продукции</NavLink>
-                        <NavLink className="li" to="/contact">контакты</NavLink>
-                    </ul>
-
-                    <ul>
-                        <h6>КОНТАКТЫ</h6>
-                        <li>Политика конфиденциальности</li>
-                        <li>Контакты</li>
-                    </ul>
-
-                    <h5>ПОДПИСАТЬСЯ НА НОВОСТИ <br /> И АКЦИИ</h5>
-
                 </div>
             </footer>
         </>

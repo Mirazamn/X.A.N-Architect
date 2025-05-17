@@ -1,14 +1,40 @@
 .characteristics .card {
-    background: url(../../assets/characteristics.svg);
+    background: url(../../assets/home-1.jpg);
+    background-size: cover;
+    position: relative;
     padding: 150px 50px 30px 50px;
 
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     align-items: flex-start;
     justify-content: center;
 
     width: 600px;
+    height: 450px;
+}
+
+
+.characteristics .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.characteristics .card h2, .characteristics .card hr, .characteristics .card p {
+    z-index: 2;
+}
+
+.characteristics .card hr {
+    background: #FCDC00;
+}
+
+
+.characteristics .s-card hr {
+    background: #FCDC00;
 }
 
 
@@ -36,7 +62,7 @@
 
 
 .characteristics .s-card {
-    background: #01AEE7;
+    background: #B8A38F;
     padding: 21px 46px 16px 53px;
 
     display: flex;
@@ -69,5 +95,36 @@
 
 
 .characteristics .c-img {
-    background: url(../../assets/value.svg);
+    background: url(../../assets/home-2.jpg);
+    background-size: cover;
+}
+
+
+@media (max-width: 500px) {
+    .characteristics > .flex {
+        flex-direction: column-reverse;
+    }
+
+
+    .characteristics .s-card {
+        width: 380px;
+    }
+
+
+    .characteristics .s-card .display-m {
+        font-size: 25px;
+    }
+    
+
+    .body-m {
+        font-size: 17px;
+        width: 300px;
+    }
+
+
+
+    .characteristics .card {
+        width: 380px;
+        height: 400px;
+    }
 }

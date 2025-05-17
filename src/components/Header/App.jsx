@@ -2,13 +2,14 @@ import './App.css'
 
 // Assets
 import Logo from '../../assets/Logo.svg'
-import ru from '../../assets/ru.svg'
+import MobileLogo from '../../assets/Logo.png'
 
 function Header() {
     return (
         <header>
             <div className="container flex">
-                <img src={Logo} alt="" />
+                <img src={Logo} className="desktop" />
+                <img src={MobileLogo} className="mobile" />
 
                 <div className="flex wrapper">
 
@@ -18,7 +19,7 @@ function Header() {
                                 Ru
                             </option>
 
-                            <option value="uz">
+                            <option value="uz" selected>
                                 Uz
                             </option>
 
@@ -33,7 +34,9 @@ function Header() {
                     </div>
 
                     <button>
-                        оставить заявку
+                        <a href="#contacts">
+                            Bog‘lanish
+                        </a>
                     </button>
                 </div>
 

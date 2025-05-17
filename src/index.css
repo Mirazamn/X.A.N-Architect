@@ -11,6 +11,20 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+html,body {
+  overflow-x: hidden;
+}
+
+
+body {
+  background: #F5EDE5;
+}
+
 
 .container {
     width: 80%;

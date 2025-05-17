@@ -2,20 +2,20 @@ import './App.css'
 
 function Characteristics() {
     return (
-        <section className="characteristics">
+        <section className="characteristics" id='characteristics'>
             <div className="container flex">
                  <div className="flex">
 
                     <div className="card">
-                        <h2 className='display-m'>Лучшие <br /> характеристики</h2>
+                        <h2 className='display-m'>Professional <br /> Loyihalash</h2>
                         <hr className='hr'/>
-                        <p className='body-m'>Наши тренажеры имеют самые совершенные характеристики в классе, от более мощных технических показателей до расширенных функциональных возможностей</p>
+                        <p className='body-m'>Har bir bino — bu san’at asari. <br /> Biz mijozlaringiz ehtiyojlari va davlat me’yorlariga <br /> to‘liq mos loyiha yaratamiz.</p>
                     </div>    
 
                     <div className="s-card">
-                        <h2 className='display-m'>ВЫСОКОЕ КАЧЕСТВО И <br /> НАДЕЖНОСТЬ</h2>
+                        <h2 className='display-m'>Sifatli va Mas’uliyatli Yondashuv</h2>
                         <hr className='hr'/>
-                        <p className='body-m'>Высокое качество тренажеров - это визитная карточка TRUE. Кроме того TRUE предоставляет до 5 лет гарантии на кардиотренажеры.</p>
+                        <p className='body-m'>Loyihadan tortib, yakuniy hujjatgacha — barcha <br /> jarayonlarda aniqlik va e’tibor.</p>
                     </div>
                     
                 </div>
@@ -23,15 +23,16 @@ function Characteristics() {
                  <div className="flex">
 
                     <div className="s-card">
-                        <h2 className='display-m'>Низкая СТОИМОСТЬ <br /> ВЛАДЕНИЕ</h2>
+                        <h2 className='display-m'>Zamonaviy Dizayn <br /> Yondashuvi</h2>
                         <hr className='hr'/>
-                        <p className='body-m'>Надежность оборудования обеспечивает низкие затраты на сервисное обслуживание, так по стоимости затрат на эксплуатацию TRUE выигрывает у конкурентов.</p>
+                        <p className='body-m'>Klassik va zamonaviy uslublarning uyg‘unligi — har bir mijozga moslashtirilgan dizayn.
+                        </p>
                     </div>
 
                     <div className="card c-img">
-                        <h2 className='display-m'>КАЧЕСТВЕННЫЕ И ОПЕРАТИВНЫЙ СЕРВИС</h2>
+                        <h2 className='display-m'>Tez va Ishonchli Hujjatlashtirish</h2>
                         <hr className='hr'/>
-                        <p className='body-m'>Оборудование должно работать бесперебойно, поэтому мы уделяем особое внимание наличию всех необходимых запчастей и высокой срочности технического реагирования.</p>
+                        <p className='body-m'>Qurilgan binoni kadastrga kiritish, ruxsatnoma olish va boshqa hujjat ishlari bizning zimdamizda.</p>
                     </div>    
 
                 </div>
